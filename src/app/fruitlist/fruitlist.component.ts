@@ -18,8 +18,14 @@ export class FruitlistComponent {
       genus: 'Kernobstgewächsen innerhalb der Familie der Rosengewächse',
       stars: 2.3,
       reviews: [
-        { name: 'Kevin W.', text: 'ist lecker' },
-        { name: 'Arne P.', text: 'nicht so meins' },
+        {
+          name: 'Kevin W.',
+          text: 'ist lecker',
+        },
+        {
+          name: 'Arne P.',
+          text: 'nicht so meins',
+        },
       ],
     },
     {
@@ -27,12 +33,17 @@ export class FruitlistComponent {
       img: 'banana.png',
       description:
         'Bananen können bis zu 30 Zentimeter lang werden. Im reifen Zustand ist die Schale dick und gelb und lässt sich leicht abziehen. Das cremige bis gelbe Fruchtfleisch ist zunächst fest und stärkehaltig.',
-      genus:
-        'Bananengewächse (Musaceae) innerhalb der Einkeimblättrigen Pflanzen (Monokotyledonen)',
+      genus: 'Bananengewächse (Musaceae) innerhalb der Einkeimblättrigen Pflanzen (Monokotyledonen)',
       stars: 3.8,
       reviews: [
-        { name: 'Waldemar W.', text: 'gut für Obstsalat' },
-        { name: 'Olaf P.', text: 'Kann man mal machen' },
+        {
+          name: 'Waldemar W.',
+          text: 'gut für Obstsalat',
+        },
+        {
+          name: 'Olaf P.',
+          text: 'Kann man mal machen',
+        },
       ],
     },
     {
@@ -42,7 +53,12 @@ export class FruitlistComponent {
         'Die Steinfrucht der Sauerkirsche hat einen Durchmesser von 15 bis 20 mm, ist etwa kugelförmig, etwas höher, breiter, unbehaart, frostfrei, hell- bis dunkelrot. Das Fruchtfleisch ist sauer und rot oder farblos.',
       genus: 'Pflanzenart aus der Familie der Rosengewächse (Rosaceae)',
       stars: 3.7,
-      reviews: [{ name: 'Horst', text: 'definitiv nicht süß' }],
+      reviews: [
+        {
+          name: 'Horst',
+          text: 'definitiv nicht süß',
+        },
+      ],
     },
     {
       name: 'Erdbeere',
@@ -52,8 +68,14 @@ export class FruitlistComponent {
       genus: 'Pflanzenart aus der Familie der Rosengewächse (Rosaceae)',
       stars: 4.3,
       reviews: [
-        { name: 'Mandy K.', text: 'perfekt für Kuchen' },
-        { name: 'Olaf P.', text: 'Kann man auch mal machen' },
+        {
+          name: 'Mandy K.',
+          text: 'perfekt für Kuchen',
+        },
+        {
+          name: 'Olaf P.',
+          text: 'Kann man auch mal machen',
+        },
       ],
     },
     {
@@ -64,8 +86,14 @@ export class FruitlistComponent {
       genus: 'Pflanzenart aus der Familie der  Rautengewächse',
       stars: 1.3,
       reviews: [
-        { name: 'Horst', text: 'auch definitiv nicht süß' },
-        { name: 'Paul K.', text: 'nicht perfekt für Kuchen' },
+        {
+          name: 'Horst',
+          text: 'auch definitiv nicht süß',
+        },
+        {
+          name: 'Paul K.',
+          text: 'nicht perfekt für Kuchen',
+        },
       ],
     },
     {
@@ -76,8 +104,14 @@ export class FruitlistComponent {
       genus: 'Pflanzenart aus der Familie der  Rautengewächse',
       stars: 4.7,
       reviews: [
-        { name: 'Kevin W.', text: 'Ganz gut in der Regel!' },
-        { name: 'Oliver J.', text: 'Absoluter Favorit beim Frühstück' },
+        {
+          name: 'Kevin W.',
+          text: 'Ganz gut in der Regel!',
+        },
+        {
+          name: 'Oliver J.',
+          text: 'Absoluter Favorit beim Frühstück',
+        },
       ],
     },
   ];
