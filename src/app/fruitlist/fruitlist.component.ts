@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SinglefruitComponent } from './singlefruit/singlefruit.component';
+import { FruitlistdataService } from '../fruitlistdata.service';
 
 @Component({
   selector: 'app-fruitlist',
@@ -13,6 +14,7 @@ export class FruitlistComponent {
   howItworks = 'amazing';
   fontColorGood = 'green'
   fontColorBad = 'red'
+  fruitlistdata = inject(FruitlistdataService)
 
   fruitlist = [
     {
@@ -87,7 +89,14 @@ export class FruitlistComponent {
     },
   ];
 
-  nameLog(name:string){
-    console.log(name)
+  addComment(comment:string, index:number){
+    this.fruitlist[index].reviews.push(
+      {
+         name: 'Manuel', 
+         text: comment
+      }
+    )
   }
+
+  
 }

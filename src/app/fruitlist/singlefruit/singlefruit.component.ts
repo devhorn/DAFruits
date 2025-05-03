@@ -22,11 +22,13 @@ export class SinglefruitComponent {
     ], 
   };
 
-  inputData = ""
+  inputData = "";
 
   @Output()fruitname = new EventEmitter<string>();
 
   sendInputName(){
-    console.log(this.inputData)
+    this.fruitname.emit(this.inputData);
+    this.inputData = "";
+    
   }
 }
