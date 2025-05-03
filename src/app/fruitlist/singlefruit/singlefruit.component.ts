@@ -26,7 +26,7 @@ export class SinglefruitComponent {
 
   @Output()fruitname = new EventEmitter<string>();
 
-  sendInputName(){
+  sendInput(){
     this.fruitname.emit(this.inputData);
     this.inputData = "";
     
