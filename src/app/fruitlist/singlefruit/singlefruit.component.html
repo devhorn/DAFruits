@@ -29,7 +29,8 @@
           } @empty { <b>no comments available</b> }
         </div>
         <div>
-          <input type="text" /><button>
+          <input [(ngModel)]="inputData" type="text" />
+          <button (click)="sendInputName()">
             <img src="./assets/img/arrow-35-32.png" alt="" srcset="" />
           </button>
         </div>
